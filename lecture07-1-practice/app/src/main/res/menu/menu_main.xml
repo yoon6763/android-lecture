@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_rotate"
+        android:orderInCategory="100"
+        android:title="이미지 회전" />
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:visible="true">
+        <item
+            android:id="@+id/menu_cat_1"
+            android:checked="true"
+            android:title="고양이" />
+        <item
+            android:id="@+id/menu_cat_2"
+            android:title="애용이" />
+
+        <item
+            android:id="@+id/menu_cat_3"
+            android:title="냥냥이" />
+    </group>
+</menu>
