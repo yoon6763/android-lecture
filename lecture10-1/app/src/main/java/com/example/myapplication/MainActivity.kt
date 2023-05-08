@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                 (llImage[llImage.childCount - 1] as LinearLayout).addView(ImageView(this@MainActivity).apply {
                     setImageDrawable(getDrawable(images[idx].image))
 
+                    scaleType = ImageView.ScaleType.CENTER_CROP
                     layoutParams =
                         LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.MATCH_PARENT)
                             .apply { weight = 1f }

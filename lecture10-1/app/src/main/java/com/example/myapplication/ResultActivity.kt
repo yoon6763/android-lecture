@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.LinearLayout
 import android.widget.RatingBar
 import android.widget.TextView
+import androidx.core.view.get
 import com.example.myapplication.databinding.ActivityResultBinding
 
 class ResultActivity : AppCompatActivity() {
@@ -28,32 +29,27 @@ class ResultActivity : AppCompatActivity() {
             R.drawable.pic9,
         )
 
+        val titles = arrayOf(
+            "독서하는 소녀",
+            "꽃장식 모자 소녀",
+            "부채를 든 소녀",
+            "이레느깡 단 베르양",
+            "잠자는 소녀",
+            "테라스의 두 자매",
+            "피아노 레슨",
+            "피아노 앞의 소녀들",
+            "해변에서",
+        )
+
         binding.run {
             val maxIdx = counts.indexOf(counts.maxOrNull())
 
-            tvTitle.text = images[maxIdx]
-            ivImage.setImageDrawable(getDrawable(maxIdx))
+            tvTitle.text = titles[maxIdx]
+            ivImage.setImageDrawable(getDrawable(imageIds[maxIdx]))
 
             repeat(9) { idx ->
-                llImageTitles.addView(TextView(this@ResultActivity).apply {
-                    text = images[idx]
-                    textSize = 20f
-                    layoutParams = LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.MATCH_PARENT
-                    ).apply { weight = 1f }
-                })
-
-                llRatingBar.addView(RatingBar(this@ResultActivity).apply {
-                    numStars = 5
-                    rating = counts[idx].toFloat()
-                    stepSize = 1f
-                    layoutParams = LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                    )
-                })
-
+                ((llRating[idx] as LinearLayout)[0] as TextView).text = titles[idx]
+                ((llRating[idx] as LinearLayout)[1] as RatingBar).rating = counts[idx].toFloat()
             }
         }
     }
