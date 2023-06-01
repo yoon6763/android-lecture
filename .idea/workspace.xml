@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ebac9db-ecb6-4b30-8721-ca19bc426296" name="Changes" comment="" />
+    <list default="true" id="3ebac9db-ecb6-4b30-8721-ca19bc426296" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_middle_3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam_middle_3/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam_middle_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam_middle_3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture10-1/app/src/main/java/com/example/myapplication/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lecture10-1/app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture10-2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lecture10-2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture10-2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lecture10-2/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2N4Z7novMlbeLKV0edBAOAzspfj" />
   <component name="ProjectViewState">
@@ -21,7 +31,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/uknow/workspace/lecture-android"
+    "last_opened_file_path": "/Users/uknow/workspace/android/lecture-android",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,5 +45,16 @@
       <updated>1678925149905</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

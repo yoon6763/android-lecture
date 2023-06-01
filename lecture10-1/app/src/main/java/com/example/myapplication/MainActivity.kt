@@ -9,8 +9,6 @@ import android.widget.Toast
 import androidx.core.view.get
 import com.example.myapplication.databinding.ActivityMainBinding
 
-data class ImageData(val image: Int, val title: String, var count: Int = 0)
-
 class MainActivity : AppCompatActivity() {
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
 
